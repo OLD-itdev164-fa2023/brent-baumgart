@@ -26,5 +26,5 @@ query blogPostQuery($slug: String!) {
             }
          }
     }
- }
+  }
 `
