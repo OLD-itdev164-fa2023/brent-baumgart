@@ -10,7 +10,7 @@ const StyledButton = styled(BaseButton)`
 export const IconButton = styled (({ icon, ...rest }) => {
     let clone = React.cloneElement(icon, rest)
     return <StyledButton as={clone.type} {...rest} className={rest.className} />
-})
+})``
 
 IconButton.defaultProps = {
     size: 24
