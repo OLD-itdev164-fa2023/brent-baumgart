@@ -14,7 +14,7 @@ const BlogPost = ({ data }) => {
       />
       <H1>{title}</H1>
       <div dangerouslySetInnerHTML={{__html: body.childMarkdownRemark.html}}></div>
-    </Layout>
+    </Layout> 
   )
 }
 
